@@ -1,6 +1,6 @@
 # AfricasTalking-rs
 
-[![Rust CI](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yml)
+[![Rust CI](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yaml)
 [![Rust Docs](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml/badge.svg?tag=v0.1.1)](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
