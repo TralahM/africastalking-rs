@@ -7,6 +7,13 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  CARGO_TERM_COLOR: always
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   test_and_lint:
     name: Test and Lint Crate
@@ -20,6 +27,11 @@ jobs:
         with:
           toolchain: stable
           override: true
+
+      - name: cargo generate-lockfile
+        if: hashFiles('**/Cargo.lock') == ''
+        run: |
+          cargo generate-lockfile
 
       - name: Install dependencies (fetch crates)
         run: cargo fetch
@@ -50,7 +62,7 @@ jobs:
           directory: docs
           # If your Dockerfile is named something other than Dockerfile or in a different location,
           # specify "dockerfile: docs/Dockerfile", e.g.:
-          dockerfile: docs/Dockerfile        
+          dockerfile: docs/Dockerfile
 
   publish:
     name: Publish to crates.io
