@@ -2,6 +2,7 @@ name: Release Docs
 
 on:
   push:
+    branches: [main]
     tags: ["v*.*.*"]
   release:
     types: [published, edited]
