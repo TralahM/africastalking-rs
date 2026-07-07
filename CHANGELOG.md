@@ -7,12 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 <!-- next-header -->
+## [0.1.3] - 2026-07-07
+
+### :bug: Fixed
+- Wotkflow release docs by @TralahM
+- Ci workflow by @TralahM
+- Workflow sync pages by @TralahM
+
+### :gear: Miscellaneous
+- Update workflow. by @TralahM
+- Renamed workflow file by @TralahM
+- CI workflow renamed by @TralahM
+- Update workflow files by @TralahM
+
 ## [0.1.2] - 2026-07-07
 
 ### :gear: Miscellaneous
-- Conditional execution of ci docker and crates.io publish steps.
-- Update readme.
-- Update workflow file.
+- Conditional execution of ci docker and crates.io publish steps. by @TralahM
+- Update readme. by @TralahM
+- Update workflow file. by @TralahM
 
 ## [0.1.1] - 2026-07-07
 
@@ -42,6 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * @MikeTeddyOmondi made their first contribution
 
 <!-- next-url -->
+[0.1.3]: https://github.com/tralahm/africastalking-rs/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/tralahm/africastalking-rs/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/tralahm/africastalking-rs/compare/v0.1.0...v0.1.1
 
