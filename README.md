@@ -1,17 +1,17 @@
 # AfricasTalking-rs
 
 [![Rust CI](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tralahm/africastalking-rs/actions/workflows/ci.yml)
-[![Rust Docs](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml/badge.svg?tag=v3.4.1)](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml)
+[![Rust Docs](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml/badge.svg?tag=v0.1.1)](https://github.com/tralahm/africastalking-rs/actions/workflows/release-core.yml)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 This projects aims to provide an SDK that will support Rust projects with the [Africas Talking](https://africastalking.com) gateway APIs.
 
 ## Installation
 
-Current release: v0.0.1
+Current release: v0.1.1
 
 ```shell
-cargo add --git https://github.com/tralahm/africastalking-rs --tag=v0.0.1
+cargo add --git https://github.com/tralahm/africastalking-rs --tag=v0.1.1
 ```
 
 or add this to your `Cargo.toml`:
