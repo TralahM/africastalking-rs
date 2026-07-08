@@ -9,7 +9,7 @@ edition = "2024"
 license = "MIT"
 description = "Unofficial Rust SDK for Africa's Talking API"
 repository = "https://github.com/TralahM/africastalking-rs"
-documentation = "https://docs.rs/africastalking"
+documentation = "https://tralahm.github.io/africastalking"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
