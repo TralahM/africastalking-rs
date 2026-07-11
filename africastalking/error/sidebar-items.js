@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AfricasTalkingError"],"struct":["ApiErrorResponse"],"type":["Result"]};

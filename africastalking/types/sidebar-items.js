@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Currency"],"struct":["ApiResponse","ErrorResponse","Pagination","PhoneNumber"]};

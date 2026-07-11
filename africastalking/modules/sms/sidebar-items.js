@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["FetchMessagesResponse","FetchSmsMessageData","SendSmsRequest","SendSmsResponse","SmsMessage","SmsMessageData","SmsModule","SmsRecipient"]};
